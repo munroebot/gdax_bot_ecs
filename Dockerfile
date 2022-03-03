@@ -1,5 +1,5 @@
 from amazonlinux:latest
-RUN yum -y install tzdata python-pip aws-cli wget jq gzip tar git
+RUN yum -y install tzdata python3 aws-cli wget jq gzip tar git
 
 WORKDIR ~
 RUN git clone https://github.com/kdmukai/gdax_bot.git
