@@ -12,4 +12,4 @@ echo -e $j > /opt/gdax_bot/trades_${INTERVAL}.sh;
 chmod +x /opt/gdax_bot/trades_${INTERVAL}.sh;
 
 # Run task
-./trades_${interval}.sh;
+./trades_${INTERVAL}.sh;
